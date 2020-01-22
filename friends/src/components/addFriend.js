@@ -30,7 +30,7 @@ const AddFriend = (props) => {
           .then(res => {
               console.log(res);
               // props.setLogin(true);
-              props.history.push(`/friend-list`);
+              props.history.push(`/friends-list`);
           })
           .catch(err => {
               console.log(err);
